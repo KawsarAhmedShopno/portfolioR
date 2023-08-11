@@ -13,7 +13,7 @@ class Header extends Component {
           fixed="top"
           variant="light"
         >
-          <Navbar.Brand href="/" className="navTitle">
+          <Navbar.Brand href="/portfolioR" className="navTitle">
             <img src="assets/img/logo/logo.png" alt="" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -25,7 +25,7 @@ class Header extends Component {
               <NavDropdown.Divider />
             </Nav>
             <Nav>
-              <NavLink as={Link} to="/" className="navItem">
+              <NavLink as={Link} to="/portfolioR" className="navItem">
                 Home
               </NavLink>
               <NavLink as={Link} to="/about" className="navItem">
