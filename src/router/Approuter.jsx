@@ -12,11 +12,11 @@ export default class Approuter extends Component {
       <div>
         <Routes>
           <Route path="/portfolioR" element={<Homepage />} />
-          <Route path="/about" element={<Aboutpage />} />
-          <Route path="/service" element={<Servicepage />} />
-          <Route path="/portfolio" element={<Portfoliopage />} />
-          <Route path="/project" element={<Projectpage />} />
-          <Route path="/contact" element={<Contactpage />} />
+          <Route path="/portfolioR/about" element={<Aboutpage />} />
+          <Route path="/portfolioR/service" element={<Servicepage />} />
+          <Route path="/portfolioR/portfolio" element={<Portfoliopage />} />
+          <Route path="/portfolioR/project" element={<Projectpage />} />
+          <Route path="/portfolioR/contact" element={<Contactpage />} />
         </Routes>
       </div>
     );
