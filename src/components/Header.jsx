@@ -28,20 +28,20 @@ class Header extends Component {
               <NavLink as={Link} to="/portfolioR" className="navItem">
                 Home
               </NavLink>
-              <NavLink as={Link} to="/about" className="navItem">
+              <NavLink as={Link} to="/portfolioR/about" className="navItem">
                 About Me
               </NavLink>
-              <NavLink as={Link} to="/service" className="navItem">
+              <NavLink as={Link} to="/portfolioR/service" className="navItem">
                 Services
               </NavLink>
 
-              <NavLink as={Link} to="/project" className="navItem">
+              <NavLink as={Link} to="/portfolioR/project" className="navItem">
                 Project
               </NavLink>
-              <NavLink as={Link} to="/portfolio" className="navItem">
+              <NavLink as={Link} to="/portfolioR/portfolio" className="navItem">
                 Portfolio
               </NavLink>
-              <NavLink as={Link} to="/contact" className="navItem">
+              <NavLink as={Link} to="/portfolioR/contact" className="navItem">
                 Contact
               </NavLink>
             </Nav>

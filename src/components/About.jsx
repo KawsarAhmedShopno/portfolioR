@@ -69,7 +69,10 @@ class About extends Component {
                   </div>
                 </div>
                 <div className="col-xl-2 col-lg-2 col-md-3">
-                  <a href="/contact" className="btn btn-black f-right">
+                  <a
+                    href="/portfolioR/contact"
+                    className="btn btn-black f-right"
+                  >
                     Contact Me Now
                   </a>
                 </div>

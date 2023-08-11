@@ -11,15 +11,15 @@ class Introduction extends Component {
               <div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-8">
                   <div class="hero__caption">
-                    <h1 data-animation="fadeInUp" data-delay=".6s">
+                    <h3 data-animation="fadeInUp" data-delay=".6s">
                       This is A Full Stack Developer
                       <br />
-                      Kawsar Ahmed
-                    </h1>
+                      <h1>Kawsar Ahmed</h1>
+                    </h3>
 
                     <div class="hero__btn">
                       <Link
-                        to="/about"
+                        to="/portfolioR/about"
                         class="btn hero-btn"
                         data-animation="fadeInLeft"
                         data-delay=".8s"
@@ -27,7 +27,7 @@ class Introduction extends Component {
                         Learn More
                       </Link>
                       <Link
-                        to="/contact"
+                        to="/portfolioR/contact"
                         class="btn border-btn ml-15"
                         data-animation="fadeInRight"
                         data-delay="1.0s"

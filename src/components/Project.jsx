@@ -64,6 +64,14 @@ class Project extends Component {
               </Card>
             </Col>
           </Row>
+          <div className="col-xl-2 col-lg-2 col-md-3">
+            <a
+              href="https://github.com/kawsarahmedshopno"
+              className="btn btn-black f-right"
+            >
+              Contact Me Now
+            </a>
+          </div>
         </Container>
       </Fragment>
     );
