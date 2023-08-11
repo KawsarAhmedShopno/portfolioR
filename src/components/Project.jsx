@@ -63,20 +63,14 @@ class Project extends Component {
                 </Card.Body>
               </Card>
             </Col>
-            <Col lg={4} md={6} sm={12}>
-              <Card className="projectCard" style={{ width: "18rem" }}>
-                <Card.Body>
-                  <Card.Text className="serviceDescription">
-                    <div className="col-xl-2 col-lg-2 col-md-3">
-                      <a
-                        href="https://github.com/kawsarahmedshopno"
-                        className="btn btn-black f-right"
-                      >
-                        More
-                      </a>
-                    </div>
-                  </Card.Text>
-                </Card.Body>
+            <Col lg={4} md={6} sm={12} >
+              <Card className="projectmore" >
+                <a
+                  href="https://github.com/kawsarahmedshopno"
+                  className="btn btn-black f-right"
+                >
+                  More
+                </a>
               </Card>
             </Col>
           </Row>
