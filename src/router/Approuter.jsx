@@ -11,7 +11,7 @@ export default class Approuter extends Component {
     return (
       <div>
         <Routes>
-          <Route path="/" element={<Homepage />} />
+          <Route path="/portfolioR" element={<Homepage />} />
           <Route path="/about" element={<Aboutpage />} />
           <Route path="/service" element={<Servicepage />} />
           <Route path="/portfolio" element={<Portfoliopage />} />
